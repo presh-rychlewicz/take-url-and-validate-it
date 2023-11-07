@@ -1,11 +1,18 @@
 {
-  "name": "take-url-and-validate-it",
+  "name": "take-url-and-css-selector-and-get-element-text-content",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest",
+    "test:dev": "jest --watchAll"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "jest": "^29.7.0"
+  }
 }
